@@ -1,6 +1,9 @@
 name: Deploy Cold Storage Website
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
